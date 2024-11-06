@@ -16,7 +16,7 @@ This WebRTC application enables real-time video and audio communication with a b
 ## Project Structure
 
 The main directories and files are organized as follows:
-
+webrtc-app/ (root directory) ├── public/ # Client-side files │ ├── index.html # Entry page for user input (name and room ID) │ ├── room.html # Main video conference interface │ ├── style.css # Styling for layout and responsiveness │ └── script.js # Client-side logic for video, chat, and user interactions ├── socket.io/ │ └── socket.io.js # Socket.IO client-side library ├── server.js # Server-side script to manage WebSocket connections ├── package.json # Project metadata and dependencies └── package-lock.json # Dependency lock file
 
 ### Key Files
 - **index.html**: Entry page where users enter their name and room ID to join a room.
