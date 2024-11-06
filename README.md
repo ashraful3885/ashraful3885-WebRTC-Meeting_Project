@@ -30,10 +30,10 @@ A simple WebRTC-based video meeting application with chat and full audio/video c
 2. Install dependencies:
    ```bash
    npm install
-###Running the Application
+### Running the Application
 Start the server:
-   ```bash
-   node server.js
+```bash
+node server.js
 
 Open your browser and go to http://localhost:3000 to access the app.
 
