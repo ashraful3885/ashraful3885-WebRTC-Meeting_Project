@@ -30,20 +30,19 @@ A simple WebRTC-based video meeting application with chat and full audio/video c
 2. Install dependencies:
    ```bash
    npm install
-Running the Application
+###Running the Application
 Start the server:
-
-```bash
-node server.js
+   ```bash
+   node server.js
 
 Open your browser and go to http://localhost:3000 to access the app.
 
-###Technologies Used
+##Technologies Used
 WebRTC for peer-to-peer video/audio streaming.
 Socket.IO for real-time communication.
 Node.js for backend server.
 
-###Future Enhancements
+##Future Enhancements
 Additional user roles (e.g., host/moderator).
 Screen sharing capabilities.
 File sharing within the chat.
