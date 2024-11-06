@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca17366843.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container1">
+        <h2>Room: <span id="roomIdDisplay"></span></h2>
+        <div id="video-container">
+            <div class="video-wrapper">
+                <video id="localVideo" autoplay playsinline muted></video>
+                <p class="username" id="localUsername"></p>
+            </div>
+
+            <div id="remoteVideos"></div>
+        </div>
+        <div class="callControls">
+            <button class="controlsBtn" id="toggleMic"><i class="fa-solid fa-microphone"></i></button>
+            <button class="controlsBtn" id="toggleVideo"><i class="fa-solid fa-video"></i></button>
+            <button class="endBtn" id="endCall">End Call</button>
+        </div>
+    </div>
+    <div class="container2">
+        <div id="chat-container">
+            <h3>Chat</h3>
+            <div id="chatMessages"></div>
+            <div class="chatControls">
+                <input type="text" id="chatInput" placeholder="Type a message">
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Socket.io and Script Files -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>

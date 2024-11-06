@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Enter Room Details</h2>
+        <input type="text" id="username" placeholder="Enter Name" required>
+        <input type="text" id="roomId" placeholder="Room ID" required>
+        <button id="joinBtn">Join Room</button>
+    </div>
+
+    <script>
+        document.getElementById("joinBtn").addEventListener("click", () => {
+            const username = document.getElementById("username").value.trim();
+            const roomId = document.getElementById("roomId").value.trim();
+            if (username && roomId) {
+                window.location.href = `room.html?username=${username}&roomId=${roomId}`;
+            } else {
+                alert("Please enter both a username and a room ID.");
+            }
+        });
+    </script>
+</body>
+
+</html>
