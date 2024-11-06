@@ -9,7 +9,7 @@ A simple WebRTC-based video meeting application with chat and full audio/video c
 - **Full Control**: Mute/unmute microphone, toggle video, and end call options for each user.
 - **In-Room Chat**: Users can send and receive text messages within the meeting room.
 
-## Project Structure
+## Key Files
 - **`index.html`**: Entry page where users input their name and room ID.
 - **`room.html`**: Main meeting room interface with video streams and chat.
 - **`style.css`**: Styling for the meeting interface and components.
