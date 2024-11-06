@@ -22,7 +22,7 @@ A simple WebRTC-based video meeting application with chat and full audio/video c
 - [Node.js](https://nodejs.org/) installed on your machine.
 - A clone of this repository.
 
-### Installation
+### Installation and Running the Application
 1. Clone the repository:
    ```bash
    git clone https://github.com/ashraful3885/WebRTC-Meeting_Project.git
@@ -30,9 +30,17 @@ A simple WebRTC-based video meeting application with chat and full audio/video c
 2. Install dependencies:
    ```bash
    npm install
-### Running the Application
-Start the server:
-```bash
-node server.js
+3. Start the server:
+   ```bash
+   node server.js
+Open your browser and go to http://localhost:3000 to access the app.
 
-bcxbvbkxcb
+## Technologies Used
+- **WebRTC for peer-to-peer video/audio streaming.**
+- **Socket.IO for real-time communication.**
+- **Node.js for backend server.**
+
+## Future Enhancements
+- **Additional user roles (e.g., host/moderator).**
+- **Screen sharing capabilities.**
+- **File sharing within the chat.**
